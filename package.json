@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +20,8 @@
   "bugs": {
     "url": "https://github.com/Woody26467/node_app/issues"
   },
-  "homepage": "https://github.com/Woody26467/node_app#readme"
-  
+  "homepage": "https://github.com/Woody26467/node_app#readme",
+  "dependencies": {
+    "chalk": "^5.2.0"
+  }
 }
